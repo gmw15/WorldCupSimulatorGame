@@ -489,10 +489,10 @@ function computePositionRatings() {
   });
 
   return {
-    GK: averageGroupScore(groups.GK, ['defending', 'physical', 'passing']),
-    DEF: averageGroupScore(groups.DEF, ['defending', 'physical']),
-    MID: averageGroupScore(groups.MID, ['passing', 'dribbling']),
-    ATT: averageGroupScore(groups.ATT, ['shooting', 'dribbling'])
+    GK: averagePlayerRating(groups.GK),
+    DEF: averagePlayerRating(groups.DEF),
+    MID: averagePlayerRating(groups.MID),
+    ATT: averagePlayerRating(groups.ATT)
   };
 }
 
@@ -504,17 +504,10 @@ function getPositionGroup(position) {
   return 'MID';
 }
 
-function averageGroupScore(players, categories) {
+function averagePlayerRating(players) {
   if (!players.length) return null;
 
-  const total = players.reduce((sum, player) => {
-    const score = categories.reduce((catSum, category) => {
-      const stat = player.stats?.[category]?.overall;
-      return catSum + (typeof stat === 'number' ? stat : player.rating);
-    }, 0);
-    return sum + score / categories.length;
-  }, 0);
-
+  const total = players.reduce((sum, player) => sum + player.rating, 0);
   return Math.round(total / players.length);
 }
 
