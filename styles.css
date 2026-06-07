@@ -1,12 +1,12 @@
-:root {
-  --bg: #0e1624;
-  --surface: #152136;
-  --surface2: #1e2a45;
-  --text: #ecf2ff;
-  --muted: #b0c3ff;
-  --accent: #4db5ff;
-  --accent2: #ffd166;
-  --danger: #ff7a7a;
+﻿:root {
+  --bg: #06121f;
+  --surface: #102239;
+  --surface2: #1b3d54;
+  --text: #f6f9ff;
+  --muted: #b8d1ff;
+  --accent: #ffdd59;
+  --accent2: #3de0a6;
+  --danger: #ff6f6f;
 }
 
 * {
@@ -17,28 +17,67 @@ body {
   margin: 0;
   min-height: 100vh;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: radial-gradient(circle at top, #162748 0%, #0b111f 45%);
   color: var(--text);
+  background: radial-gradient(circle at top center, rgba(255,255,255,0.08), transparent 14%),
+    radial-gradient(circle at 10% 20%, rgba(255,221,89,0.08), transparent 18%),
+    linear-gradient(180deg, #07131f 0%, #071e27 45%, #071216 100%);
+  background-attachment: fixed;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: radial-gradient(circle at 25% 25%, rgba(255,255,255,0.04), transparent 25%),
+    radial-gradient(circle at 78% 12%, rgba(61,224,166,0.08), transparent 18%),
+    radial-gradient(circle at 88% 70%, rgba(255,221,89,0.07), transparent 16%);
+  pointer-events: none;
 }
 
 .app-shell {
-  max-width: 1100px;
+  max-width: 1140px;
   margin: 0 auto;
-  padding: 32px 24px 48px;
+  padding: 36px 24px 52px;
 }
 
 header {
-  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 28px;
+  border-radius: 34px;
+  padding: 36px 32px;
+  background: linear-gradient(135deg, rgba(6, 37, 66, 0.95), rgba(16, 43, 64, 0.98));
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.24);
+}
+
+header::before {
+  content: '';
+  position: absolute;
+  inset: -20% -10%;
+  background: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.08), transparent 30%);
+}
+
+header::after {
+  content: 'FIFA WORLD CUP 2026';
+  position: absolute;
+  right: 28px;
+  bottom: 24px;
+  font-size: 0.78rem;
+  letter-spacing: 0.3em;
+  color: rgba(255, 255, 255, 0.16);
+  text-transform: uppercase;
 }
 
 h1 {
-  margin: 0 0 10px;
-  font-size: clamp(2rem, 3vw, 3rem);
+  margin: 0 0 12px;
+  font-size: clamp(2.4rem, 3.4vw, 3.6rem);
+  line-height: 1.05;
 }
 
 p {
   margin: 0;
-  line-height: 1.7;
+  line-height: 1.75;
   color: var(--muted);
 }
 
@@ -47,89 +86,116 @@ p {
   grid-template-columns: 1fr auto;
   gap: 20px;
   align-items: start;
-  margin-bottom: 24px;
+  margin-bottom: 28px;
 }
 
 .control-block {
-  background: rgba(16, 27, 46, 0.95);
-  padding: 18px;
-  border-radius: 18px;
-  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+  background: rgba(11, 24, 40, 0.94);
+  padding: 24px;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.24);
 }
 
-button, select {
+button,
+select {
   width: 100%;
   border: none;
-  border-radius: 12px;
+  border-radius: 14px;
   font: inherit;
 }
 
 select {
-  padding: 14px 16px;
-  background: #111827;
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+select option {
+  background: rgba(8, 18, 33, 0.98);
   color: var(--text);
 }
 
+select option:hover,
+select option:focus {
+  background: rgba(61, 224, 166, 0.12);
+}
+
 button {
-  padding: 14px 16px;
+  padding: 16px 18px;
   cursor: pointer;
-  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, background-color 0.22s ease;
 }
 
 button:hover {
-  transform: translateY(-1px);
+  transform: translateY(-2px);
 }
 
 button.primary {
-  background: linear-gradient(135deg, var(--accent), var(--accent2));
-  color: #09111f;
+  background: linear-gradient(135deg, rgba(255,221,89,1), rgba(61,224,166,1));
+  color: #0b1721;
   font-weight: 700;
-  box-shadow: 0 18px 35px rgba(77, 181, 255, 0.2);
+  box-shadow: 0 20px 45px rgba(61, 224, 166, 0.24);
 }
 
 button.large {
   font-size: 1.05rem;
-  padding: 18px 20px;
+  padding: 18px 22px;
 }
 
 .button-group {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 12px;
 }
 
 .button-group button {
   flex: 1;
-  min-width: 100px;
+  min-width: 110px;
   background: rgba(255, 255, 255, 0.06);
   color: var(--text);
   border: 1px solid rgba(255, 255, 255, 0.08);
 }
 
 .button-group button.active {
-  background: var(--accent);
-  color: #09111f;
-  border-color: transparent;
+  background: rgba(61, 224, 166, 0.16);
+  color: #f8fbff;
+  border-color: rgba(61, 224, 166, 0.35);
 }
 
 .button-row {
   display: grid;
-  gap: 12px;
+  gap: 14px;
 }
 
 .team-pool-info {
-  margin-top: 14px;
+  margin-top: 16px;
   color: var(--muted);
   font-size: 0.95rem;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .section {
-  background: rgba(16, 27, 46, 0.95);
-  border-radius: 24px;
-  padding: 24px;
-  margin-bottom: 24px;
-  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+  position: relative;
+  background: rgba(10, 19, 34, 0.96);
+  border-radius: 28px;
+  padding: 28px;
+  margin-bottom: 26px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.22);
+}
+
+.section::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(255,255,255,0.02), transparent 30%);
+  border-radius: 28px;
+  pointer-events: none;
 }
 
 .hidden {
@@ -145,27 +211,28 @@ button.large {
 
 .position-card,
 .team-card {
-  background: #0d1729;
-  padding: 18px;
-  border-radius: 18px;
-  border: 1px solid rgba(255, 255, 255, 0.06);
+  background: rgba(18, 30, 49, 0.95);
+  padding: 20px;
+  border-radius: 22px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .position-card h3 {
-  margin: 0 0 10px;
-  font-size: 0.95rem;
+  margin: 0 0 12px;
+  font-size: 1rem;
 }
 
 .position-card select {
   width: 100%;
-  padding: 12px 14px;
-  background: #08101e;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.04);
 }
 
 .team-card {
   display: inline-flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 8px;
 }
 
 .team-card strong {
@@ -180,9 +247,9 @@ button.large {
 }
 
 .selection-summary {
-  margin-top: 20px;
+  margin-top: 22px;
   display: grid;
-  gap: 10px;
+  gap: 12px;
   color: var(--muted);
 }
 
@@ -197,19 +264,31 @@ button.large {
 }
 
 .pitch-grid {
+  position: relative;
   display: grid;
-  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  grid-template-columns: repeat(5, minmax(100px, 1fr));
   gap: 12px;
-  padding: 18px;
-  background: linear-gradient(180deg, rgba(21, 82, 41, 0.95), rgba(8, 40, 19, 0.95));
-  border-radius: 20px;
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(22, 80, 34, 0.95), rgba(8, 24, 16, 0.95));
+  border-radius: 24px;
   border: 1px solid rgba(255, 255, 255, 0.08);
+  overflow: hidden;
+}
+
+.pitch-grid::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.06) 0%, transparent 16%),
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 100% 100%, 38px 38px;
+  pointer-events: none;
 }
 
 .pitch-slot {
-  min-height: 88px;
-  padding: 12px;
-  border-radius: 16px;
+  min-height: 94px;
+  padding: 14px;
+  border-radius: 18px;
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid rgba(255, 255, 255, 0.08);
   display: grid;
@@ -223,14 +302,14 @@ button.large {
 }
 
 .pitch-slot.selected {
-  background: rgba(77, 181, 255, 0.15);
-  border-color: rgba(77, 181, 255, 0.32);
+  background: rgba(61, 224, 166, 0.16);
+  border-color: rgba(61, 224, 166, 0.35);
 }
 
 .pitch-slot .position {
   font-size: 0.82rem;
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.12em;
   color: var(--muted);
 }
 
@@ -241,9 +320,9 @@ button.large {
 }
 
 #simulationResults {
-  margin-top: 20px;
-  font-size: 0.98rem;
-  line-height: 1.7;
+  margin-top: 24px;
+  font-size: 1rem;
+  line-height: 1.75;
 }
 
 #simulationResults h3 {
@@ -251,18 +330,51 @@ button.large {
 }
 
 .match-log {
-  margin-top: 16px;
+  margin-top: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.08);
-  padding-top: 16px;
+  padding-top: 18px;
 }
 
 .match-log p,
 .match-log li {
-  margin: 6px 0;
+  margin: 8px 0;
+}
+
+.position-rating-summary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(120px, 1fr));
+  gap: 14px;
+  color: #edf5ff;
+}
+
+.position-rating-summary div {
+  padding: 16px 18px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  font-size: 0.95rem;
+}
+
+header p {
+  margin-top: 14px;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+h2 {
+  margin-top: 0;
+  color: #f7fbff;
 }
 
 @media (max-width: 760px) {
   .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .pitch-grid {
+    grid-template-columns: repeat(3, minmax(100px, 1fr));
+  }
+
+  .position-rating-summary {
     grid-template-columns: 1fr;
   }
 }
