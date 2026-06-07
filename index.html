@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>World Cup Squad Simulator</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header>
+      <h1>World Cup Squad Simulator</h1>
+      <p>Draw talents from random nations and build a mixed 11-player squad before simulating a full World Cup run.</p>
+    </header>
+
+    <section class="controls">
+      <div class="control-block">
+        <label>Choose formation</label>
+        <div id="formationButtons" class="button-group"></div>
+      </div>
+      <div class="control-block">
+        <label>Team draw</label>
+        <button id="drawTeamBtn" class="primary" disabled>Draw a random team</button>
+        <div id="teamPoolInfo" class="team-pool-info"></div>
+      </div>
+    </section>
+
+    <section id="currentDrawSection" class="section hidden">
+      <h2>Current Draw</h2>
+      <div id="currentTeamName" class="team-card"></div>
+      <div id="currentFormationName" class="team-card"></div>
+      <div class="pitch-section">
+        <div class="pitch-header">Formation pitch</div>
+        <div id="pitchMap" class="pitch-grid"></div>
+      </div>
+      <div class="control-block">
+        <label for="playerSelect">Choose one player from this team</label>
+        <select id="playerSelect"></select>
+      </div>
+      <div class="control-block">
+        <label for="slotSelect">Assign the player to a position</label>
+        <select id="slotSelect" disabled></select>
+      </div>
+      <div class="control-block button-row">
+        <button id="addPlayerBtn" class="primary">Add player to squad</button>
+        <button id="skipTeamBtn" type="button">Skip team</button>
+      </div>
+      <div id="currentStatus" class="team-pool-info"></div>
+    </section>
+
+    <section id="squadSection" class="section hidden">
+      <h2>Your Draft Squad</h2>
+      <div id="squadList" class="squad-grid"></div>
+      <div class="selection-summary">
+        <div>Selected players: <strong id="selectedCount">0</strong>/11</div>
+        <div id="positionRatingSummary" class="position-rating-summary"></div>
+        <div>Once full, simulate your custom squad through the World Cup bracket.</div>
+      </div>
+    </section>
+
+    <section id="simulationSection" class="section hidden simulation-section">
+      <button id="simulateBtn" class="primary large" disabled>Simulate World Cup</button>
+      <div id="simulationResults"></div>
+    </section>
+
+    <section class="section" id="notesSection">
+      <h2>How it works</h2>
+      <ul>
+        <li>Draw a random national squad and pick one active player from each drawn team.</li>
+        <li>Your custom team is built from 11 different nations, then entered into a full tournament path.</li>
+        <li>The simulator uses actual 32-team groups and a real knockout bracket structure.</li>
+      </ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

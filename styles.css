@@ -1,0 +1,268 @@
+:root {
+  --bg: #0e1624;
+  --surface: #152136;
+  --surface2: #1e2a45;
+  --text: #ecf2ff;
+  --muted: #b0c3ff;
+  --accent: #4db5ff;
+  --accent2: #ffd166;
+  --danger: #ff7a7a;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: radial-gradient(circle at top, #162748 0%, #0b111f 45%);
+  color: var(--text);
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 3vw, 3rem);
+}
+
+p {
+  margin: 0;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+.controls {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 20px;
+  align-items: start;
+  margin-bottom: 24px;
+}
+
+.control-block {
+  background: rgba(16, 27, 46, 0.95);
+  padding: 18px;
+  border-radius: 18px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.22);
+}
+
+button, select {
+  width: 100%;
+  border: none;
+  border-radius: 12px;
+  font: inherit;
+}
+
+select {
+  padding: 14px 16px;
+  background: #111827;
+  color: var(--text);
+}
+
+button {
+  padding: 14px 16px;
+  cursor: pointer;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease;
+}
+
+button:hover {
+  transform: translateY(-1px);
+}
+
+button.primary {
+  background: linear-gradient(135deg, var(--accent), var(--accent2));
+  color: #09111f;
+  font-weight: 700;
+  box-shadow: 0 18px 35px rgba(77, 181, 255, 0.2);
+}
+
+button.large {
+  font-size: 1.05rem;
+  padding: 18px 20px;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.button-group button {
+  flex: 1;
+  min-width: 100px;
+  background: rgba(255, 255, 255, 0.06);
+  color: var(--text);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.button-group button.active {
+  background: var(--accent);
+  color: #09111f;
+  border-color: transparent;
+}
+
+.button-row {
+  display: grid;
+  gap: 12px;
+}
+
+.team-pool-info {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.section {
+  background: rgba(16, 27, 46, 0.95);
+  border-radius: 24px;
+  padding: 24px;
+  margin-bottom: 24px;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.18);
+}
+
+.hidden {
+  display: none;
+}
+
+.squad-grid,
+.lineup-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 18px;
+}
+
+.position-card,
+.team-card {
+  background: #0d1729;
+  padding: 18px;
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.position-card h3 {
+  margin: 0 0 10px;
+  font-size: 0.95rem;
+}
+
+.position-card select {
+  width: 100%;
+  padding: 12px 14px;
+  background: #08101e;
+}
+
+.team-card {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.team-card strong {
+  display: block;
+  font-size: 1rem;
+}
+
+.player-meta {
+  margin: 8px 0 6px;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.selection-summary {
+  margin-top: 20px;
+  display: grid;
+  gap: 10px;
+  color: var(--muted);
+}
+
+.pitch-section {
+  margin-top: 20px;
+}
+
+.pitch-header {
+  margin-bottom: 14px;
+  font-weight: 700;
+  color: var(--accent);
+}
+
+.pitch-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(110px, 1fr));
+  gap: 12px;
+  padding: 18px;
+  background: linear-gradient(180deg, rgba(21, 82, 41, 0.95), rgba(8, 40, 19, 0.95));
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.pitch-slot {
+  min-height: 88px;
+  padding: 12px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  display: grid;
+  gap: 8px;
+  place-items: center;
+  text-align: center;
+}
+
+.pitch-slot.empty {
+  color: var(--muted);
+}
+
+.pitch-slot.selected {
+  background: rgba(77, 181, 255, 0.15);
+  border-color: rgba(77, 181, 255, 0.32);
+}
+
+.pitch-slot .position {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--muted);
+}
+
+.pitch-slot .player {
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+}
+
+#simulationResults {
+  margin-top: 20px;
+  font-size: 0.98rem;
+  line-height: 1.7;
+}
+
+#simulationResults h3 {
+  margin-top: 0;
+}
+
+.match-log {
+  margin-top: 16px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 16px;
+}
+
+.match-log p,
+.match-log li {
+  margin: 6px 0;
+}
+
+@media (max-width: 760px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+}

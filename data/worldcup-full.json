@@ -1,0 +1,3410 @@
+{
+  "formations": {
+    "4-3-3": [
+      "GK",
+      "LB",
+      "CB",
+      "CB",
+      "RB",
+      "CM",
+      "CM",
+      "CAM",
+      "LW",
+      "ST",
+      "RW"
+    ],
+    "4-4-2": [
+      "GK",
+      "LB",
+      "CB",
+      "CB",
+      "RB",
+      "LM",
+      "CM",
+      "CM",
+      "RM",
+      "ST",
+      "ST"
+    ],
+    "3-5-2": [
+      "GK",
+      "LWB",
+      "CB",
+      "CB",
+      "RWB",
+      "CM",
+      "CM",
+      "CAM",
+      "ST",
+      "ST",
+      "ST"
+    ],
+    "4-2-3-1": [
+      "GK",
+      "LB",
+      "CB",
+      "CB",
+      "RB",
+      "CDM",
+      "CM",
+      "LW",
+      "CAM",
+      "RW",
+      "ST"
+    ]
+  },
+  "groups": [
+    {
+      "id": "A",
+      "name": "Group A",
+      "teams": [
+        "qatar",
+        "ecuador",
+        "senegal",
+        "netherlands"
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Group B",
+      "teams": [
+        "england",
+        "iran",
+        "usa",
+        "wales"
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Group C",
+      "teams": [
+        "argentina",
+        "saudi_arabia",
+        "mexico",
+        "poland"
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Group D",
+      "teams": [
+        "france",
+        "australia",
+        "denmark",
+        "tunisia"
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Group E",
+      "teams": [
+        "spain",
+        "costa_rica",
+        "germany",
+        "japan"
+      ]
+    },
+    {
+      "id": "F",
+      "name": "Group F",
+      "teams": [
+        "belgium",
+        "canada",
+        "morocco",
+        "croatia"
+      ]
+    },
+    {
+      "id": "G",
+      "name": "Group G",
+      "teams": [
+        "brazil",
+        "serbia",
+        "switzerland",
+        "cameroon"
+      ]
+    },
+    {
+      "id": "H",
+      "name": "Group H",
+      "teams": [
+        "portugal",
+        "ghana",
+        "uruguay",
+        "south_korea"
+      ]
+    }
+  ],
+  "fixtures": [
+    {
+      "groupId": "A",
+      "home": "qatar",
+      "away": "ecuador"
+    },
+    {
+      "groupId": "A",
+      "home": "senegal",
+      "away": "netherlands"
+    },
+    {
+      "groupId": "A",
+      "home": "qatar",
+      "away": "senegal"
+    },
+    {
+      "groupId": "A",
+      "home": "ecuador",
+      "away": "netherlands"
+    },
+    {
+      "groupId": "A",
+      "home": "qatar",
+      "away": "netherlands"
+    },
+    {
+      "groupId": "A",
+      "home": "ecuador",
+      "away": "senegal"
+    },
+    {
+      "groupId": "B",
+      "home": "england",
+      "away": "iran"
+    },
+    {
+      "groupId": "B",
+      "home": "usa",
+      "away": "wales"
+    },
+    {
+      "groupId": "B",
+      "home": "england",
+      "away": "usa"
+    },
+    {
+      "groupId": "B",
+      "home": "iran",
+      "away": "wales"
+    },
+    {
+      "groupId": "B",
+      "home": "england",
+      "away": "wales"
+    },
+    {
+      "groupId": "B",
+      "home": "iran",
+      "away": "usa"
+    },
+    {
+      "groupId": "C",
+      "home": "argentina",
+      "away": "saudi_arabia"
+    },
+    {
+      "groupId": "C",
+      "home": "mexico",
+      "away": "poland"
+    },
+    {
+      "groupId": "C",
+      "home": "argentina",
+      "away": "mexico"
+    },
+    {
+      "groupId": "C",
+      "home": "saudi_arabia",
+      "away": "poland"
+    },
+    {
+      "groupId": "C",
+      "home": "argentina",
+      "away": "poland"
+    },
+    {
+      "groupId": "C",
+      "home": "saudi_arabia",
+      "away": "mexico"
+    },
+    {
+      "groupId": "D",
+      "home": "france",
+      "away": "australia"
+    },
+    {
+      "groupId": "D",
+      "home": "denmark",
+      "away": "tunisia"
+    },
+    {
+      "groupId": "D",
+      "home": "france",
+      "away": "denmark"
+    },
+    {
+      "groupId": "D",
+      "home": "australia",
+      "away": "tunisia"
+    },
+    {
+      "groupId": "D",
+      "home": "france",
+      "away": "tunisia"
+    },
+    {
+      "groupId": "D",
+      "home": "australia",
+      "away": "denmark"
+    },
+    {
+      "groupId": "E",
+      "home": "spain",
+      "away": "costa_rica"
+    },
+    {
+      "groupId": "E",
+      "home": "germany",
+      "away": "japan"
+    },
+    {
+      "groupId": "E",
+      "home": "spain",
+      "away": "germany"
+    },
+    {
+      "groupId": "E",
+      "home": "costa_rica",
+      "away": "japan"
+    },
+    {
+      "groupId": "E",
+      "home": "spain",
+      "away": "japan"
+    },
+    {
+      "groupId": "E",
+      "home": "costa_rica",
+      "away": "germany"
+    },
+    {
+      "groupId": "F",
+      "home": "belgium",
+      "away": "canada"
+    },
+    {
+      "groupId": "F",
+      "home": "morocco",
+      "away": "croatia"
+    },
+    {
+      "groupId": "F",
+      "home": "belgium",
+      "away": "morocco"
+    },
+    {
+      "groupId": "F",
+      "home": "canada",
+      "away": "croatia"
+    },
+    {
+      "groupId": "F",
+      "home": "belgium",
+      "away": "croatia"
+    },
+    {
+      "groupId": "F",
+      "home": "canada",
+      "away": "morocco"
+    },
+    {
+      "groupId": "G",
+      "home": "brazil",
+      "away": "serbia"
+    },
+    {
+      "groupId": "G",
+      "home": "switzerland",
+      "away": "cameroon"
+    },
+    {
+      "groupId": "G",
+      "home": "brazil",
+      "away": "switzerland"
+    },
+    {
+      "groupId": "G",
+      "home": "serbia",
+      "away": "cameroon"
+    },
+    {
+      "groupId": "G",
+      "home": "brazil",
+      "away": "cameroon"
+    },
+    {
+      "groupId": "G",
+      "home": "serbia",
+      "away": "switzerland"
+    },
+    {
+      "groupId": "H",
+      "home": "portugal",
+      "away": "ghana"
+    },
+    {
+      "groupId": "H",
+      "home": "uruguay",
+      "away": "south_korea"
+    },
+    {
+      "groupId": "H",
+      "home": "portugal",
+      "away": "uruguay"
+    },
+    {
+      "groupId": "H",
+      "home": "ghana",
+      "away": "south_korea"
+    },
+    {
+      "groupId": "H",
+      "home": "portugal",
+      "away": "south_korea"
+    },
+    {
+      "groupId": "H",
+      "home": "ghana",
+      "away": "uruguay"
+    }
+  ],
+  "knockoutBracket": {
+    "roundOf16": [
+      {
+        "home": {
+          "group": "A",
+          "position": 1
+        },
+        "away": {
+          "group": "B",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "C",
+          "position": 1
+        },
+        "away": {
+          "group": "D",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "E",
+          "position": 1
+        },
+        "away": {
+          "group": "F",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "G",
+          "position": 1
+        },
+        "away": {
+          "group": "H",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "B",
+          "position": 1
+        },
+        "away": {
+          "group": "A",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "D",
+          "position": 1
+        },
+        "away": {
+          "group": "C",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "F",
+          "position": 1
+        },
+        "away": {
+          "group": "E",
+          "position": 2
+        }
+      },
+      {
+        "home": {
+          "group": "H",
+          "position": 1
+        },
+        "away": {
+          "group": "G",
+          "position": 2
+        }
+      }
+    ]
+  },
+  "teams": [
+    {
+      "id": "qatar",
+      "name": "Qatar",
+      "abbreviation": "QAT",
+      "rating": 72,
+      "squad": [
+        {
+          "id": "qatar_gk_1",
+          "name": "Qatar Goalkeeper #1",
+          "position": "GK",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "qatar_gk_2",
+          "name": "Qatar Goalkeeper #2",
+          "position": "GK",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "qatar_lb",
+          "name": "Qatar Left Back #1",
+          "position": "LB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "qatar_cb_1",
+          "name": "Qatar Center Back #1",
+          "position": "CB",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "qatar_cb_2",
+          "name": "Qatar Center Back #2",
+          "position": "CB",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "qatar_rb",
+          "name": "Qatar Right Back #1",
+          "position": "RB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "qatar_cdm",
+          "name": "Qatar Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "qatar_cm",
+          "name": "Qatar Midfielder #1",
+          "position": "CM",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "qatar_cam",
+          "name": "Qatar Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "qatar_lw",
+          "name": "Qatar Left Winger #1",
+          "position": "LW",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "qatar_st",
+          "name": "Qatar Striker #1",
+          "position": "ST",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "qatar_rw",
+          "name": "Qatar Right Winger #1",
+          "position": "RW",
+          "rating": 73,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "ecuador",
+      "name": "Ecuador",
+      "abbreviation": "ECU",
+      "rating": 76,
+      "squad": [
+        {
+          "id": "ecuador_gk_1",
+          "name": "Ecuador Goalkeeper #1",
+          "position": "GK",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ecuador_gk_2",
+          "name": "Ecuador Goalkeeper #2",
+          "position": "GK",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "ecuador_lb",
+          "name": "Ecuador Left Back #1",
+          "position": "LB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ecuador_cb_1",
+          "name": "Ecuador Center Back #1",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ecuador_cb_2",
+          "name": "Ecuador Center Back #2",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "ecuador_rb",
+          "name": "Ecuador Right Back #1",
+          "position": "RB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ecuador_cdm",
+          "name": "Ecuador Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ecuador_cm",
+          "name": "Ecuador Midfielder #1",
+          "position": "CM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ecuador_cam",
+          "name": "Ecuador Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ecuador_lw",
+          "name": "Ecuador Left Winger #1",
+          "position": "LW",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ecuador_st",
+          "name": "Ecuador Striker #1",
+          "position": "ST",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "ecuador_rw",
+          "name": "Ecuador Right Winger #1",
+          "position": "RW",
+          "rating": 77,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "senegal",
+      "name": "Senegal",
+      "abbreviation": "SEN",
+      "rating": 80,
+      "squad": [
+        {
+          "id": "senegal_gk_1",
+          "name": "Senegal Goalkeeper #1",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "senegal_gk_2",
+          "name": "Senegal Goalkeeper #2",
+          "position": "GK",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "senegal_lb",
+          "name": "Senegal Left Back #1",
+          "position": "LB",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "senegal_cb_1",
+          "name": "Senegal Center Back #1",
+          "position": "CB",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "senegal_cb_2",
+          "name": "Senegal Center Back #2",
+          "position": "CB",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "senegal_rb",
+          "name": "Senegal Right Back #1",
+          "position": "RB",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "senegal_cdm",
+          "name": "Senegal Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "senegal_cm",
+          "name": "Senegal Midfielder #1",
+          "position": "CM",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "senegal_cam",
+          "name": "Senegal Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "senegal_lw",
+          "name": "Senegal Left Winger #1",
+          "position": "LW",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "senegal_st",
+          "name": "Senegal Striker #1",
+          "position": "ST",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "senegal_rw",
+          "name": "Senegal Right Winger #1",
+          "position": "RW",
+          "rating": 79,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "netherlands",
+      "name": "Netherlands",
+      "abbreviation": "NED",
+      "rating": 87,
+      "squad": [
+        {
+          "id": "netherlands_gk_1",
+          "name": "Netherlands Goalkeeper #1",
+          "position": "GK",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "netherlands_gk_2",
+          "name": "Netherlands Goalkeeper #2",
+          "position": "GK",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "netherlands_lb",
+          "name": "Netherlands Left Back #1",
+          "position": "LB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "netherlands_cb_1",
+          "name": "Netherlands Center Back #1",
+          "position": "CB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "netherlands_cb_2",
+          "name": "Netherlands Center Back #2",
+          "position": "CB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "netherlands_rb",
+          "name": "Netherlands Right Back #1",
+          "position": "RB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "netherlands_cdm",
+          "name": "Netherlands Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "netherlands_cm",
+          "name": "Netherlands Midfielder #1",
+          "position": "CM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "netherlands_cam",
+          "name": "Netherlands Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "netherlands_lw",
+          "name": "Netherlands Left Winger #1",
+          "position": "LW",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "netherlands_st",
+          "name": "Netherlands Striker #1",
+          "position": "ST",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "netherlands_rw",
+          "name": "Netherlands Right Winger #1",
+          "position": "RW",
+          "rating": 86,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "england",
+      "name": "England",
+      "abbreviation": "ENG",
+      "rating": 88,
+      "squad": [
+        {
+          "id": "england_gk_1",
+          "name": "England Goalkeeper #1",
+          "position": "GK",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "england_gk_2",
+          "name": "England Goalkeeper #2",
+          "position": "GK",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "england_lb",
+          "name": "England Left Back #1",
+          "position": "LB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "england_cb_1",
+          "name": "England Center Back #1",
+          "position": "CB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "england_cb_2",
+          "name": "England Center Back #2",
+          "position": "CB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "england_rb",
+          "name": "England Right Back #1",
+          "position": "RB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "england_cdm",
+          "name": "England Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "england_cm",
+          "name": "England Midfielder #1",
+          "position": "CM",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "england_cam",
+          "name": "England Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "england_lw",
+          "name": "England Left Winger #1",
+          "position": "LW",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "england_st",
+          "name": "England Striker #1",
+          "position": "ST",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "england_rw",
+          "name": "England Right Winger #1",
+          "position": "RW",
+          "rating": 87,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "iran",
+      "name": "Iran",
+      "abbreviation": "IRN",
+      "rating": 72,
+      "squad": [
+        {
+          "id": "iran_gk_1",
+          "name": "Iran Goalkeeper #1",
+          "position": "GK",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "iran_gk_2",
+          "name": "Iran Goalkeeper #2",
+          "position": "GK",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "iran_lb",
+          "name": "Iran Left Back #1",
+          "position": "LB",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "iran_cb_1",
+          "name": "Iran Center Back #1",
+          "position": "CB",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "iran_cb_2",
+          "name": "Iran Center Back #2",
+          "position": "CB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "iran_rb",
+          "name": "Iran Right Back #1",
+          "position": "RB",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "iran_cdm",
+          "name": "Iran Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "iran_cm",
+          "name": "Iran Midfielder #1",
+          "position": "CM",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "iran_cam",
+          "name": "Iran Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "iran_lw",
+          "name": "Iran Left Winger #1",
+          "position": "LW",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "iran_st",
+          "name": "Iran Striker #1",
+          "position": "ST",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "iran_rw",
+          "name": "Iran Right Winger #1",
+          "position": "RW",
+          "rating": 72,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "usa",
+      "name": "United States",
+      "abbreviation": "USA",
+      "rating": 84,
+      "squad": [
+        {
+          "id": "usa_gk_1",
+          "name": "United States Goalkeeper #1",
+          "position": "GK",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "usa_gk_2",
+          "name": "United States Goalkeeper #2",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "usa_lb",
+          "name": "United States Left Back #1",
+          "position": "LB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "usa_cb_1",
+          "name": "United States Center Back #1",
+          "position": "CB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "usa_cb_2",
+          "name": "United States Center Back #2",
+          "position": "CB",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "usa_rb",
+          "name": "United States Right Back #1",
+          "position": "RB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "usa_cdm",
+          "name": "United States Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "usa_cm",
+          "name": "United States Midfielder #1",
+          "position": "CM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "usa_cam",
+          "name": "United States Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "usa_lw",
+          "name": "United States Left Winger #1",
+          "position": "LW",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "usa_st",
+          "name": "United States Striker #1",
+          "position": "ST",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "usa_rw",
+          "name": "United States Right Winger #1",
+          "position": "RW",
+          "rating": 85,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "wales",
+      "name": "Wales",
+      "abbreviation": "WAL",
+      "rating": 75,
+      "squad": [
+        {
+          "id": "wales_gk_1",
+          "name": "Wales Goalkeeper #1",
+          "position": "GK",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "wales_gk_2",
+          "name": "Wales Goalkeeper #2",
+          "position": "GK",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "wales_lb",
+          "name": "Wales Left Back #1",
+          "position": "LB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "wales_cb_1",
+          "name": "Wales Center Back #1",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "wales_cb_2",
+          "name": "Wales Center Back #2",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "wales_rb",
+          "name": "Wales Right Back #1",
+          "position": "RB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "wales_cdm",
+          "name": "Wales Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "wales_cm",
+          "name": "Wales Midfielder #1",
+          "position": "CM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "wales_cam",
+          "name": "Wales Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "wales_lw",
+          "name": "Wales Left Winger #1",
+          "position": "LW",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "wales_st",
+          "name": "Wales Striker #1",
+          "position": "ST",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "wales_rw",
+          "name": "Wales Right Winger #1",
+          "position": "RW",
+          "rating": 76,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "argentina",
+      "name": "Argentina",
+      "abbreviation": "ARG",
+      "rating": 91,
+      "squad": [
+        {
+          "id": "argentina_gk_1",
+          "name": "Argentina Goalkeeper #1",
+          "position": "GK",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "argentina_gk_2",
+          "name": "Argentina Goalkeeper #2",
+          "position": "GK",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "argentina_lb",
+          "name": "Argentina Left Back #1",
+          "position": "LB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "argentina_cb_1",
+          "name": "Argentina Center Back #1",
+          "position": "CB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "argentina_cb_2",
+          "name": "Argentina Center Back #2",
+          "position": "CB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "argentina_rb",
+          "name": "Argentina Right Back #1",
+          "position": "RB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "argentina_cdm",
+          "name": "Argentina Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "argentina_cm",
+          "name": "Argentina Midfielder #1",
+          "position": "CM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "argentina_cam",
+          "name": "Argentina Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "argentina_lw",
+          "name": "Argentina Left Winger #1",
+          "position": "LW",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "argentina_st",
+          "name": "Argentina Striker #1",
+          "position": "ST",
+          "rating": 91,
+          "active": true
+        },
+        {
+          "id": "argentina_rw",
+          "name": "Argentina Right Winger #1",
+          "position": "RW",
+          "rating": 92,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "saudi_arabia",
+      "name": "Saudi Arabia",
+      "abbreviation": "KSA",
+      "rating": 70,
+      "squad": [
+        {
+          "id": "saudi_arabia_gk_1",
+          "name": "Saudi Arabia Goalkeeper #1",
+          "position": "GK",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_gk_2",
+          "name": "Saudi Arabia Goalkeeper #2",
+          "position": "GK",
+          "rating": 68,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_lb",
+          "name": "Saudi Arabia Left Back #1",
+          "position": "LB",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_cb_1",
+          "name": "Saudi Arabia Center Back #1",
+          "position": "CB",
+          "rating": 69,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_cb_2",
+          "name": "Saudi Arabia Center Back #2",
+          "position": "CB",
+          "rating": 68,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_rb",
+          "name": "Saudi Arabia Right Back #1",
+          "position": "RB",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_cdm",
+          "name": "Saudi Arabia Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_cm",
+          "name": "Saudi Arabia Midfielder #1",
+          "position": "CM",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_cam",
+          "name": "Saudi Arabia Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_lw",
+          "name": "Saudi Arabia Left Winger #1",
+          "position": "LW",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_st",
+          "name": "Saudi Arabia Striker #1",
+          "position": "ST",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "saudi_arabia_rw",
+          "name": "Saudi Arabia Right Winger #1",
+          "position": "RW",
+          "rating": 71,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "mexico",
+      "name": "Mexico",
+      "abbreviation": "MEX",
+      "rating": 78,
+      "squad": [
+        {
+          "id": "mexico_gk_1",
+          "name": "Mexico Goalkeeper #1",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "mexico_gk_2",
+          "name": "Mexico Goalkeeper #2",
+          "position": "GK",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "mexico_lb",
+          "name": "Mexico Left Back #1",
+          "position": "LB",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "mexico_cb_1",
+          "name": "Mexico Center Back #1",
+          "position": "CB",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "mexico_cb_2",
+          "name": "Mexico Center Back #2",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "mexico_rb",
+          "name": "Mexico Right Back #1",
+          "position": "RB",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "mexico_cdm",
+          "name": "Mexico Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "mexico_cm",
+          "name": "Mexico Midfielder #1",
+          "position": "CM",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "mexico_cam",
+          "name": "Mexico Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "mexico_lw",
+          "name": "Mexico Left Winger #1",
+          "position": "LW",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "mexico_st",
+          "name": "Mexico Striker #1",
+          "position": "ST",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "mexico_rw",
+          "name": "Mexico Right Winger #1",
+          "position": "RW",
+          "rating": 78,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "poland",
+      "name": "Poland",
+      "abbreviation": "POL",
+      "rating": 77,
+      "squad": [
+        {
+          "id": "poland_gk_1",
+          "name": "Poland Goalkeeper #1",
+          "position": "GK",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "poland_gk_2",
+          "name": "Poland Goalkeeper #2",
+          "position": "GK",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "poland_lb",
+          "name": "Poland Left Back #1",
+          "position": "LB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "poland_cb_1",
+          "name": "Poland Center Back #1",
+          "position": "CB",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "poland_cb_2",
+          "name": "Poland Center Back #2",
+          "position": "CB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "poland_rb",
+          "name": "Poland Right Back #1",
+          "position": "RB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "poland_cdm",
+          "name": "Poland Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "poland_cm",
+          "name": "Poland Midfielder #1",
+          "position": "CM",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "poland_cam",
+          "name": "Poland Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "poland_lw",
+          "name": "Poland Left Winger #1",
+          "position": "LW",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "poland_st",
+          "name": "Poland Striker #1",
+          "position": "ST",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "poland_rw",
+          "name": "Poland Right Winger #1",
+          "position": "RW",
+          "rating": 77,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "france",
+      "name": "France",
+      "abbreviation": "FRA",
+      "rating": 92,
+      "squad": [
+        {
+          "id": "france_gk_1",
+          "name": "France Goalkeeper #1",
+          "position": "GK",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "france_gk_2",
+          "name": "France Goalkeeper #2",
+          "position": "GK",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "france_lb",
+          "name": "France Left Back #1",
+          "position": "LB",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "france_cb_1",
+          "name": "France Center Back #1",
+          "position": "CB",
+          "rating": 91,
+          "active": true
+        },
+        {
+          "id": "france_cb_2",
+          "name": "France Center Back #2",
+          "position": "CB",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "france_rb",
+          "name": "France Right Back #1",
+          "position": "RB",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "france_cdm",
+          "name": "France Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "france_cm",
+          "name": "France Midfielder #1",
+          "position": "CM",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "france_cam",
+          "name": "France Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 91,
+          "active": true
+        },
+        {
+          "id": "france_lw",
+          "name": "France Left Winger #1",
+          "position": "LW",
+          "rating": 91,
+          "active": true
+        },
+        {
+          "id": "france_st",
+          "name": "France Striker #1",
+          "position": "ST",
+          "rating": 92,
+          "active": true
+        },
+        {
+          "id": "france_rw",
+          "name": "France Right Winger #1",
+          "position": "RW",
+          "rating": 90,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "australia",
+      "name": "Australia",
+      "abbreviation": "AUS",
+      "rating": 75,
+      "squad": [
+        {
+          "id": "australia_gk_1",
+          "name": "Australia Goalkeeper #1",
+          "position": "GK",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "australia_gk_2",
+          "name": "Australia Goalkeeper #2",
+          "position": "GK",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "australia_lb",
+          "name": "Australia Left Back #1",
+          "position": "LB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "australia_cb_1",
+          "name": "Australia Center Back #1",
+          "position": "CB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "australia_cb_2",
+          "name": "Australia Center Back #2",
+          "position": "CB",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "australia_rb",
+          "name": "Australia Right Back #1",
+          "position": "RB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "australia_cdm",
+          "name": "Australia Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "australia_cm",
+          "name": "Australia Midfielder #1",
+          "position": "CM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "australia_cam",
+          "name": "Australia Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "australia_lw",
+          "name": "Australia Left Winger #1",
+          "position": "LW",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "australia_st",
+          "name": "Australia Striker #1",
+          "position": "ST",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "australia_rw",
+          "name": "Australia Right Winger #1",
+          "position": "RW",
+          "rating": 75,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "denmark",
+      "name": "Denmark",
+      "abbreviation": "DEN",
+      "rating": 82,
+      "squad": [
+        {
+          "id": "denmark_gk_1",
+          "name": "Denmark Goalkeeper #1",
+          "position": "GK",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "denmark_gk_2",
+          "name": "Denmark Goalkeeper #2",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "denmark_lb",
+          "name": "Denmark Left Back #1",
+          "position": "LB",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "denmark_cb_1",
+          "name": "Denmark Center Back #1",
+          "position": "CB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "denmark_cb_2",
+          "name": "Denmark Center Back #2",
+          "position": "CB",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "denmark_rb",
+          "name": "Denmark Right Back #1",
+          "position": "RB",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "denmark_cdm",
+          "name": "Denmark Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "denmark_cm",
+          "name": "Denmark Midfielder #1",
+          "position": "CM",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "denmark_cam",
+          "name": "Denmark Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "denmark_lw",
+          "name": "Denmark Left Winger #1",
+          "position": "LW",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "denmark_st",
+          "name": "Denmark Striker #1",
+          "position": "ST",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "denmark_rw",
+          "name": "Denmark Right Winger #1",
+          "position": "RW",
+          "rating": 82,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "tunisia",
+      "name": "Tunisia",
+      "abbreviation": "TUN",
+      "rating": 74,
+      "squad": [
+        {
+          "id": "tunisia_gk_1",
+          "name": "Tunisia Goalkeeper #1",
+          "position": "GK",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_gk_2",
+          "name": "Tunisia Goalkeeper #2",
+          "position": "GK",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "tunisia_lb",
+          "name": "Tunisia Left Back #1",
+          "position": "LB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_cb_1",
+          "name": "Tunisia Center Back #1",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_cb_2",
+          "name": "Tunisia Center Back #2",
+          "position": "CB",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "tunisia_rb",
+          "name": "Tunisia Right Back #1",
+          "position": "RB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_cdm",
+          "name": "Tunisia Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "tunisia_cm",
+          "name": "Tunisia Midfielder #1",
+          "position": "CM",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_cam",
+          "name": "Tunisia Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "tunisia_lw",
+          "name": "Tunisia Left Winger #1",
+          "position": "LW",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "tunisia_st",
+          "name": "Tunisia Striker #1",
+          "position": "ST",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "tunisia_rw",
+          "name": "Tunisia Right Winger #1",
+          "position": "RW",
+          "rating": 74,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "spain",
+      "name": "Spain",
+      "abbreviation": "ESP",
+      "rating": 89,
+      "squad": [
+        {
+          "id": "spain_gk_1",
+          "name": "Spain Goalkeeper #1",
+          "position": "GK",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "spain_gk_2",
+          "name": "Spain Goalkeeper #2",
+          "position": "GK",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "spain_lb",
+          "name": "Spain Left Back #1",
+          "position": "LB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "spain_cb_1",
+          "name": "Spain Center Back #1",
+          "position": "CB",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "spain_cb_2",
+          "name": "Spain Center Back #2",
+          "position": "CB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "spain_rb",
+          "name": "Spain Right Back #1",
+          "position": "RB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "spain_cdm",
+          "name": "Spain Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "spain_cm",
+          "name": "Spain Midfielder #1",
+          "position": "CM",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "spain_cam",
+          "name": "Spain Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "spain_lw",
+          "name": "Spain Left Winger #1",
+          "position": "LW",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "spain_st",
+          "name": "Spain Striker #1",
+          "position": "ST",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "spain_rw",
+          "name": "Spain Right Winger #1",
+          "position": "RW",
+          "rating": 89,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "costa_rica",
+      "name": "Costa Rica",
+      "abbreviation": "CRC",
+      "rating": 71,
+      "squad": [
+        {
+          "id": "costa_rica_gk_1",
+          "name": "Costa Rica Goalkeeper #1",
+          "position": "GK",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_gk_2",
+          "name": "Costa Rica Goalkeeper #2",
+          "position": "GK",
+          "rating": 69,
+          "active": true
+        },
+        {
+          "id": "costa_rica_lb",
+          "name": "Costa Rica Left Back #1",
+          "position": "LB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_cb_1",
+          "name": "Costa Rica Center Back #1",
+          "position": "CB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_cb_2",
+          "name": "Costa Rica Center Back #2",
+          "position": "CB",
+          "rating": 70,
+          "active": true
+        },
+        {
+          "id": "costa_rica_rb",
+          "name": "Costa Rica Right Back #1",
+          "position": "RB",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_cdm",
+          "name": "Costa Rica Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_cm",
+          "name": "Costa Rica Midfielder #1",
+          "position": "CM",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "costa_rica_cam",
+          "name": "Costa Rica Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_lw",
+          "name": "Costa Rica Left Winger #1",
+          "position": "LW",
+          "rating": 71,
+          "active": true
+        },
+        {
+          "id": "costa_rica_st",
+          "name": "Costa Rica Striker #1",
+          "position": "ST",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "costa_rica_rw",
+          "name": "Costa Rica Right Winger #1",
+          "position": "RW",
+          "rating": 72,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "germany",
+      "name": "Germany",
+      "abbreviation": "GER",
+      "rating": 86,
+      "squad": [
+        {
+          "id": "germany_gk_1",
+          "name": "Germany Goalkeeper #1",
+          "position": "GK",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "germany_gk_2",
+          "name": "Germany Goalkeeper #2",
+          "position": "GK",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "germany_lb",
+          "name": "Germany Left Back #1",
+          "position": "LB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "germany_cb_1",
+          "name": "Germany Center Back #1",
+          "position": "CB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "germany_cb_2",
+          "name": "Germany Center Back #2",
+          "position": "CB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "germany_rb",
+          "name": "Germany Right Back #1",
+          "position": "RB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "germany_cdm",
+          "name": "Germany Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "germany_cm",
+          "name": "Germany Midfielder #1",
+          "position": "CM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "germany_cam",
+          "name": "Germany Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "germany_lw",
+          "name": "Germany Left Winger #1",
+          "position": "LW",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "germany_st",
+          "name": "Germany Striker #1",
+          "position": "ST",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "germany_rw",
+          "name": "Germany Right Winger #1",
+          "position": "RW",
+          "rating": 86,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "japan",
+      "name": "Japan",
+      "abbreviation": "JPN",
+      "rating": 77,
+      "squad": [
+        {
+          "id": "japan_gk_1",
+          "name": "Japan Goalkeeper #1",
+          "position": "GK",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "japan_gk_2",
+          "name": "Japan Goalkeeper #2",
+          "position": "GK",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "japan_lb",
+          "name": "Japan Left Back #1",
+          "position": "LB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "japan_cb_1",
+          "name": "Japan Center Back #1",
+          "position": "CB",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "japan_cb_2",
+          "name": "Japan Center Back #2",
+          "position": "CB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "japan_rb",
+          "name": "Japan Right Back #1",
+          "position": "RB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "japan_cdm",
+          "name": "Japan Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "japan_cm",
+          "name": "Japan Midfielder #1",
+          "position": "CM",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "japan_cam",
+          "name": "Japan Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "japan_lw",
+          "name": "Japan Left Winger #1",
+          "position": "LW",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "japan_st",
+          "name": "Japan Striker #1",
+          "position": "ST",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "japan_rw",
+          "name": "Japan Right Winger #1",
+          "position": "RW",
+          "rating": 77,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "belgium",
+      "name": "Belgium",
+      "abbreviation": "BEL",
+      "rating": 86,
+      "squad": [
+        {
+          "id": "belgium_gk_1",
+          "name": "Belgium Goalkeeper #1",
+          "position": "GK",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "belgium_gk_2",
+          "name": "Belgium Goalkeeper #2",
+          "position": "GK",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "belgium_lb",
+          "name": "Belgium Left Back #1",
+          "position": "LB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "belgium_cb_1",
+          "name": "Belgium Center Back #1",
+          "position": "CB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "belgium_cb_2",
+          "name": "Belgium Center Back #2",
+          "position": "CB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "belgium_rb",
+          "name": "Belgium Right Back #1",
+          "position": "RB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "belgium_cdm",
+          "name": "Belgium Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "belgium_cm",
+          "name": "Belgium Midfielder #1",
+          "position": "CM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "belgium_cam",
+          "name": "Belgium Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "belgium_lw",
+          "name": "Belgium Left Winger #1",
+          "position": "LW",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "belgium_st",
+          "name": "Belgium Striker #1",
+          "position": "ST",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "belgium_rw",
+          "name": "Belgium Right Winger #1",
+          "position": "RW",
+          "rating": 86,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "canada",
+      "name": "Canada",
+      "abbreviation": "CAN",
+      "rating": 78,
+      "squad": [
+        {
+          "id": "canada_gk_1",
+          "name": "Canada Goalkeeper #1",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "canada_gk_2",
+          "name": "Canada Goalkeeper #2",
+          "position": "GK",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "canada_lb",
+          "name": "Canada Left Back #1",
+          "position": "LB",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "canada_cb_1",
+          "name": "Canada Center Back #1",
+          "position": "CB",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "canada_cb_2",
+          "name": "Canada Center Back #2",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "canada_rb",
+          "name": "Canada Right Back #1",
+          "position": "RB",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "canada_cdm",
+          "name": "Canada Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "canada_cm",
+          "name": "Canada Midfielder #1",
+          "position": "CM",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "canada_cam",
+          "name": "Canada Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 78,
+          "active": true
+        },
+        {
+          "id": "canada_lw",
+          "name": "Canada Left Winger #1",
+          "position": "LW",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "canada_st",
+          "name": "Canada Striker #1",
+          "position": "ST",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "canada_rw",
+          "name": "Canada Right Winger #1",
+          "position": "RW",
+          "rating": 78,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "morocco",
+      "name": "Morocco",
+      "abbreviation": "MAR",
+      "rating": 83,
+      "squad": [
+        {
+          "id": "morocco_gk_1",
+          "name": "Morocco Goalkeeper #1",
+          "position": "GK",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "morocco_gk_2",
+          "name": "Morocco Goalkeeper #2",
+          "position": "GK",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "morocco_lb",
+          "name": "Morocco Left Back #1",
+          "position": "LB",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "morocco_cb_1",
+          "name": "Morocco Center Back #1",
+          "position": "CB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "morocco_cb_2",
+          "name": "Morocco Center Back #2",
+          "position": "CB",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "morocco_rb",
+          "name": "Morocco Right Back #1",
+          "position": "RB",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "morocco_cdm",
+          "name": "Morocco Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "morocco_cm",
+          "name": "Morocco Midfielder #1",
+          "position": "CM",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "morocco_cam",
+          "name": "Morocco Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "morocco_lw",
+          "name": "Morocco Left Winger #1",
+          "position": "LW",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "morocco_st",
+          "name": "Morocco Striker #1",
+          "position": "ST",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "morocco_rw",
+          "name": "Morocco Right Winger #1",
+          "position": "RW",
+          "rating": 83,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "croatia",
+      "name": "Croatia",
+      "abbreviation": "CRO",
+      "rating": 85,
+      "squad": [
+        {
+          "id": "croatia_gk_1",
+          "name": "Croatia Goalkeeper #1",
+          "position": "GK",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "croatia_gk_2",
+          "name": "Croatia Goalkeeper #2",
+          "position": "GK",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "croatia_lb",
+          "name": "Croatia Left Back #1",
+          "position": "LB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "croatia_cb_1",
+          "name": "Croatia Center Back #1",
+          "position": "CB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "croatia_cb_2",
+          "name": "Croatia Center Back #2",
+          "position": "CB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "croatia_rb",
+          "name": "Croatia Right Back #1",
+          "position": "RB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "croatia_cdm",
+          "name": "Croatia Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "croatia_cm",
+          "name": "Croatia Midfielder #1",
+          "position": "CM",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "croatia_cam",
+          "name": "Croatia Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "croatia_lw",
+          "name": "Croatia Left Winger #1",
+          "position": "LW",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "croatia_st",
+          "name": "Croatia Striker #1",
+          "position": "ST",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "croatia_rw",
+          "name": "Croatia Right Winger #1",
+          "position": "RW",
+          "rating": 85,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "brazil",
+      "name": "Brazil",
+      "abbreviation": "BRA",
+      "rating": 90,
+      "squad": [
+        {
+          "id": "brazil_gk_1",
+          "name": "Brazil Goalkeeper #1",
+          "position": "GK",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "brazil_gk_2",
+          "name": "Brazil Goalkeeper #2",
+          "position": "GK",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "brazil_lb",
+          "name": "Brazil Left Back #1",
+          "position": "LB",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "brazil_cb_1",
+          "name": "Brazil Center Back #1",
+          "position": "CB",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "brazil_cb_2",
+          "name": "Brazil Center Back #2",
+          "position": "CB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "brazil_rb",
+          "name": "Brazil Right Back #1",
+          "position": "RB",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "brazil_cdm",
+          "name": "Brazil Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "brazil_cm",
+          "name": "Brazil Midfielder #1",
+          "position": "CM",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "brazil_cam",
+          "name": "Brazil Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "brazil_lw",
+          "name": "Brazil Left Winger #1",
+          "position": "LW",
+          "rating": 89,
+          "active": true
+        },
+        {
+          "id": "brazil_st",
+          "name": "Brazil Striker #1",
+          "position": "ST",
+          "rating": 90,
+          "active": true
+        },
+        {
+          "id": "brazil_rw",
+          "name": "Brazil Right Winger #1",
+          "position": "RW",
+          "rating": 89,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "serbia",
+      "name": "Serbia",
+      "abbreviation": "SRB",
+      "rating": 80,
+      "squad": [
+        {
+          "id": "serbia_gk_1",
+          "name": "Serbia Goalkeeper #1",
+          "position": "GK",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "serbia_gk_2",
+          "name": "Serbia Goalkeeper #2",
+          "position": "GK",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "serbia_lb",
+          "name": "Serbia Left Back #1",
+          "position": "LB",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "serbia_cb_1",
+          "name": "Serbia Center Back #1",
+          "position": "CB",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "serbia_cb_2",
+          "name": "Serbia Center Back #2",
+          "position": "CB",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "serbia_rb",
+          "name": "Serbia Right Back #1",
+          "position": "RB",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "serbia_cdm",
+          "name": "Serbia Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "serbia_cm",
+          "name": "Serbia Midfielder #1",
+          "position": "CM",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "serbia_cam",
+          "name": "Serbia Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "serbia_lw",
+          "name": "Serbia Left Winger #1",
+          "position": "LW",
+          "rating": 79,
+          "active": true
+        },
+        {
+          "id": "serbia_st",
+          "name": "Serbia Striker #1",
+          "position": "ST",
+          "rating": 81,
+          "active": true
+        },
+        {
+          "id": "serbia_rw",
+          "name": "Serbia Right Winger #1",
+          "position": "RW",
+          "rating": 80,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "switzerland",
+      "name": "Switzerland",
+      "abbreviation": "SUI",
+      "rating": 84,
+      "squad": [
+        {
+          "id": "switzerland_gk_1",
+          "name": "Switzerland Goalkeeper #1",
+          "position": "GK",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "switzerland_gk_2",
+          "name": "Switzerland Goalkeeper #2",
+          "position": "GK",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "switzerland_lb",
+          "name": "Switzerland Left Back #1",
+          "position": "LB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "switzerland_cb_1",
+          "name": "Switzerland Center Back #1",
+          "position": "CB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "switzerland_cb_2",
+          "name": "Switzerland Center Back #2",
+          "position": "CB",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "switzerland_rb",
+          "name": "Switzerland Right Back #1",
+          "position": "RB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "switzerland_cdm",
+          "name": "Switzerland Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "switzerland_cm",
+          "name": "Switzerland Midfielder #1",
+          "position": "CM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "switzerland_cam",
+          "name": "Switzerland Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "switzerland_lw",
+          "name": "Switzerland Left Winger #1",
+          "position": "LW",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "switzerland_st",
+          "name": "Switzerland Striker #1",
+          "position": "ST",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "switzerland_rw",
+          "name": "Switzerland Right Winger #1",
+          "position": "RW",
+          "rating": 84,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "cameroon",
+      "name": "Cameroon",
+      "abbreviation": "CMR",
+      "rating": 76,
+      "squad": [
+        {
+          "id": "cameroon_gk_1",
+          "name": "Cameroon Goalkeeper #1",
+          "position": "GK",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "cameroon_gk_2",
+          "name": "Cameroon Goalkeeper #2",
+          "position": "GK",
+          "rating": 73,
+          "active": true
+        },
+        {
+          "id": "cameroon_lb",
+          "name": "Cameroon Left Back #1",
+          "position": "LB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "cameroon_cb_1",
+          "name": "Cameroon Center Back #1",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "cameroon_cb_2",
+          "name": "Cameroon Center Back #2",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "cameroon_rb",
+          "name": "Cameroon Right Back #1",
+          "position": "RB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "cameroon_cdm",
+          "name": "Cameroon Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "cameroon_cm",
+          "name": "Cameroon Midfielder #1",
+          "position": "CM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "cameroon_cam",
+          "name": "Cameroon Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "cameroon_lw",
+          "name": "Cameroon Left Winger #1",
+          "position": "LW",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "cameroon_st",
+          "name": "Cameroon Striker #1",
+          "position": "ST",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "cameroon_rw",
+          "name": "Cameroon Right Winger #1",
+          "position": "RW",
+          "rating": 76,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "portugal",
+      "name": "Portugal",
+      "abbreviation": "POR",
+      "rating": 87,
+      "squad": [
+        {
+          "id": "portugal_gk_1",
+          "name": "Portugal Goalkeeper #1",
+          "position": "GK",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "portugal_gk_2",
+          "name": "Portugal Goalkeeper #2",
+          "position": "GK",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "portugal_lb",
+          "name": "Portugal Left Back #1",
+          "position": "LB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "portugal_cb_1",
+          "name": "Portugal Center Back #1",
+          "position": "CB",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "portugal_cb_2",
+          "name": "Portugal Center Back #2",
+          "position": "CB",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "portugal_rb",
+          "name": "Portugal Right Back #1",
+          "position": "RB",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "portugal_cdm",
+          "name": "Portugal Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 86,
+          "active": true
+        },
+        {
+          "id": "portugal_cm",
+          "name": "Portugal Midfielder #1",
+          "position": "CM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "portugal_cam",
+          "name": "Portugal Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "portugal_lw",
+          "name": "Portugal Left Winger #1",
+          "position": "LW",
+          "rating": 87,
+          "active": true
+        },
+        {
+          "id": "portugal_st",
+          "name": "Portugal Striker #1",
+          "position": "ST",
+          "rating": 88,
+          "active": true
+        },
+        {
+          "id": "portugal_rw",
+          "name": "Portugal Right Winger #1",
+          "position": "RW",
+          "rating": 86,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "ghana",
+      "name": "Ghana",
+      "abbreviation": "GHA",
+      "rating": 76,
+      "squad": [
+        {
+          "id": "ghana_gk_1",
+          "name": "Ghana Goalkeeper #1",
+          "position": "GK",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ghana_gk_2",
+          "name": "Ghana Goalkeeper #2",
+          "position": "GK",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "ghana_lb",
+          "name": "Ghana Left Back #1",
+          "position": "LB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ghana_cb_1",
+          "name": "Ghana Center Back #1",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ghana_cb_2",
+          "name": "Ghana Center Back #2",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "ghana_rb",
+          "name": "Ghana Right Back #1",
+          "position": "RB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ghana_cdm",
+          "name": "Ghana Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ghana_cm",
+          "name": "Ghana Midfielder #1",
+          "position": "CM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ghana_cam",
+          "name": "Ghana Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "ghana_lw",
+          "name": "Ghana Left Winger #1",
+          "position": "LW",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "ghana_st",
+          "name": "Ghana Striker #1",
+          "position": "ST",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "ghana_rw",
+          "name": "Ghana Right Winger #1",
+          "position": "RW",
+          "rating": 76,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "uruguay",
+      "name": "Uruguay",
+      "abbreviation": "URU",
+      "rating": 84,
+      "squad": [
+        {
+          "id": "uruguay_gk_1",
+          "name": "Fernando Muslera",
+          "position": "GK",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "uruguay_gk_2",
+          "name": "Sergio Rochet",
+          "position": "GK",
+          "rating": 80,
+          "active": true
+        },
+        {
+          "id": "uruguay_lb",
+          "name": "Matías Viña",
+          "position": "LB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "uruguay_cb_1",
+          "name": "José María Giménez",
+          "position": "CB",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "uruguay_cb_2",
+          "name": "Ronald Araújo",
+          "position": "CB",
+          "rating": 82,
+          "active": true
+        },
+        {
+          "id": "uruguay_rb",
+          "name": "Giovanni González",
+          "position": "RB",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "uruguay_cdm",
+          "name": "Manuel Ugarte",
+          "position": "CDM",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "uruguay_cm",
+          "name": "Federico Valverde",
+          "position": "CM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "uruguay_cam",
+          "name": "Nicolás de la Cruz",
+          "position": "CAM",
+          "rating": 84,
+          "active": true
+        },
+        {
+          "id": "uruguay_lw",
+          "name": "Facundo Pellistri",
+          "position": "LW",
+          "rating": 83,
+          "active": true
+        },
+        {
+          "id": "uruguay_st",
+          "name": "Darwin Núñez",
+          "position": "ST",
+          "rating": 85,
+          "active": true
+        },
+        {
+          "id": "uruguay_rw",
+          "name": "Maximiliano Gómez",
+          "position": "RW",
+          "rating": 84,
+          "active": true
+        }
+      ]
+    },
+    {
+      "id": "south_korea",
+      "name": "South Korea",
+      "abbreviation": "KOR",
+      "rating": 76,
+      "squad": [
+        {
+          "id": "south_korea_gk_1",
+          "name": "South Korea Goalkeeper #1",
+          "position": "GK",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "south_korea_gk_2",
+          "name": "South Korea Goalkeeper #2",
+          "position": "GK",
+          "rating": 72,
+          "active": true
+        },
+        {
+          "id": "south_korea_lb",
+          "name": "South Korea Left Back #1",
+          "position": "LB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "south_korea_cb_1",
+          "name": "South Korea Center Back #1",
+          "position": "CB",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "south_korea_cb_2",
+          "name": "South Korea Center Back #2",
+          "position": "CB",
+          "rating": 74,
+          "active": true
+        },
+        {
+          "id": "south_korea_rb",
+          "name": "South Korea Right Back #1",
+          "position": "RB",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "south_korea_cdm",
+          "name": "South Korea Defensive Midfielder #1",
+          "position": "CDM",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "south_korea_cm",
+          "name": "South Korea Midfielder #1",
+          "position": "CM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "south_korea_cam",
+          "name": "South Korea Attacking Midfielder #1",
+          "position": "CAM",
+          "rating": 76,
+          "active": true
+        },
+        {
+          "id": "south_korea_lw",
+          "name": "South Korea Left Winger #1",
+          "position": "LW",
+          "rating": 75,
+          "active": true
+        },
+        {
+          "id": "south_korea_st",
+          "name": "South Korea Striker #1",
+          "position": "ST",
+          "rating": 77,
+          "active": true
+        },
+        {
+          "id": "south_korea_rw",
+          "name": "South Korea Right Winger #1",
+          "position": "RW",
+          "rating": 76,
+          "active": true
+        }
+      ]
+    }
+  ]
+}
